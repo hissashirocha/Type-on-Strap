@@ -10,7 +10,10 @@
                     </div>
                 </div>
                 <img src="{{ site.baseurl }}/{{ item.img }}" class="" alt="">
-                {{ item.title }}
+                <a href="{{ site.baseurl }}{{ item.url }}" class="clear">
+                    {{ item.title }}
+                </a>
+                Um texto explicativo sobre essa análise que utilizou Convolutional Neural Network.
             </a>
         </div>
         {% endfor %}
