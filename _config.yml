@@ -1,14 +1,14 @@
 # SITE CONFIGURATION
 baseurl: ""
 url: "https://hissashirocha.github.io"
-title: Garagem analítica # site's title
+title: Garagem Analítica # site's title
 description: Onde cerro, trituro e lapido dados com Machine Learning e Inteligência Artificial # used by search engines
 
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Garagem analítica # blog's title
+  title: Garagem Analítica # blog's title
   avatar: assets/img/triangle.svg
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
@@ -31,7 +31,7 @@ theme_settings:
   gitlab:
   github: hissashirocha
   google_plus:
-  instagram:
+  instagram: hissashirocha
   keybase:
   linkedin: https://www.linkedin.com/in/hissashirocha/ # Full URL
   pinterest:
@@ -78,7 +78,7 @@ theme_settings:
   
   
 # PAGINATION
-paginate: 5
+paginate: 30
 paginate_path: "blog/page:num"
 
 
