@@ -1,14 +1,14 @@
 # SITE CONFIGURATION
-baseurl: "/Type-on-Strap"
+baseurl: ""
 url: "https://hissashirocha.github.io"
-title: "Garagem analítica" # site's title
-description: "Onde cerro, trituro e lapido dados com Machine Learning e Inteligência Artificial" # used by search engines
+title: Garagem analítica # site's title
+description: Onde cerro, trituro e lapido dados com Machine Learning e Inteligência Artificial # used by search engines
 
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: "Garagem analítica" # blog's title
+  title: Garagem analítica # blog's title
   avatar: assets/img/triangle.svg
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
@@ -22,18 +22,18 @@ theme_settings:
 
   # Icons
   rss: true  # Make sure you created a feed.xml with feed.xml layout
-  email_address: "hissashirocha@gmail.com"# Full email address, e.g. "sam@example.com"
+  email_address: hissashirocha@gmail.com # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
   dribbble:
   facebook:
   flickr:
   gitlab:
-  github: "hissashirocha"
+  github: hissashirocha
   google_plus:
   instagram:
   keybase:
-  linkedin:  "https://www.linkedin.com/in/hissashirocha/" # Full URL
+  linkedin: https://www.linkedin.com/in/hissashirocha/ # Full URL
   pinterest:
   reddit:
   soundcloud:
