@@ -1,8 +1,8 @@
 --- 
 layout: bootstrap 
-title : Portfolio 
-permalink: /portfolio/
-subtitle: "Projects I am working on" 
+title : Projetos 
+permalink: /projetos/
+subtitle: "Aqueles projetinhos que a gente faz nas horas vagas ..." 
 feature-img: "assets/img/pexels/computer.jpeg"
 ---
 
