@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Sobre mim
+title: Sobre Mim
 permalink: /sobremim/
 feature-img: "assets/img/pexels/circuit.jpeg"
 tags: [Sobre, About]
