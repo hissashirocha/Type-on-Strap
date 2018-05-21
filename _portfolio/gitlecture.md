@@ -3,6 +3,7 @@ layout: post
 title: Github
 img: "assets/img/portfolio/github.png"
 date: 20-10-2017
+descr: Essa é uma descrição teste para cada projeto colocada dentro da propriedade descr.
 tags: [Lorem, Portfolio]
 ---
 
