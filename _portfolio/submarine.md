@@ -3,6 +3,7 @@ layout: post
 title: Lorem Ipsum
 feature-img: "assets/img/portfolio/submarine.png"
 img: "assets/img/portfolio/submarine.png"
+descr: Essa é uma descrição teste para cada projeto colocada dentro da propriedade descr.
 date: 2017-09-03
 ---
 
