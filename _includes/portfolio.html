@@ -3,19 +3,24 @@
     <div class="row">
         {% for item in site.portfolio %}
         <div class="col-sm-4 col-xs-4 portfolio-item">
-            <a href="{{ site.baseurl }}{{ item.url }}" class="portfolio-link" data-keyboard="true">
-                <div class="caption" title="{{ item.title }}">
-                    <div class="caption-content">
-                        <i class="fa fa-search-plus fa-3x"></i>
+            <div>
+                <a href="{{ site.baseurl }}{{ item.url }}" class="portfolio-link" data-keyboard="true">
+                    <div class="caption" title="{{ item.title }}">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
                     </div>
-                </div>
-                <img src="{{ site.baseurl }}/{{ item.img }}" class="" alt="">
-            </a>
-            
-            <a style="margin-top:-15px;" href="{{ site.baseurl }}{{ item.url }}">
-                    {{ item.title }}
-            </a>
-            <div> Um texto explicativo sobre essa análise que utilizou Convolutional Neural Network. </div>
+                    <img src="{{ site.baseurl }}/{{ item.img }}" class="" alt="">
+                </a>
+            </div>
+            <div style="padding-left: 20px">
+                <a style="margin-top:-15px;" href="{{ site.baseurl }}{{ item.url }}">
+                        {{ item.title }}
+                </a>
+            </div>
+            <div style="padding-left: 20px"> 
+                Um texto explicativo sobre essa análise que utilizou Convolutional Neural Network. 
+            </div>
         </div>
         {% endfor %}
     </div>
