@@ -4,6 +4,7 @@ title: Cake
 feature-img: "assets/img/portfolio/cake.png"
 img: "assets/img/portfolio/cake.png"
 date: 27 September 2015
+descr: Essa é uma descrição teste para cada projeto colocada dentro da propriedade descr.
 tags: [Lorem, Ipsum, Portfolio]
 ---
 
