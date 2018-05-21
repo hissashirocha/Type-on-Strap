@@ -6,4 +6,4 @@ subtitle: "Bora aprenda junto comigo?"
 feature-img: "assets/img/pexels/computer.jpeg"
 ---
 
-{% include blog.html %}
+{% include tutorial.html %}
