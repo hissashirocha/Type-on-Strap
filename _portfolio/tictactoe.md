@@ -3,6 +3,7 @@ layout: post
 title: Tic tac toe
 feature-img: "assets/img/portfolio/ttt.png"
 img: "assets/img/portfolio/ttt.png"
+descr: Essa é uma descrição teste para cada projeto colocada dentro da propriedade descr.
 date: September 2014
 ---
 
