@@ -15,8 +15,8 @@ theme_settings:
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-     <p><code>Bora explorar dados e brincar com <br> Machine Learning  e  Inteligência Artificial?</code></p>
-  header_text_feature_image: assets/img/pexels/triangular.jpeg
+     <p>Eis a minha jornada em ciência de dados. </p>
+  header_text_feature_image: assets/img/pexels/garage.jpeg.jpg # triangular.jpeg
   footer_text: >
    <a href="https://jekyllrb.com/">Jekyll</a> | <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
