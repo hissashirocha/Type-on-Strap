@@ -33,7 +33,7 @@
             </a>
         </li>
         {% endif %}
-        {% assign name_page = page.title | append: name_page %}
+        {% assign name_page = page.title | append: name_page | sort %}
         {% endif %}
         {% endfor %} 
         
