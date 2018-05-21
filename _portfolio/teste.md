@@ -3,6 +3,7 @@ layout: post
 title: Teste
 img: "assets/img/portfolio/ninja.png"
 date: April, 08 2017
+descr: Essa é uma descrição teste para cada projeto colocada dentro da propriedade descr.
 tags: [Lorem]
 ---
 
