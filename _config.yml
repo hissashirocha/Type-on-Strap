@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl: ""
+baseurl: "/home/"
 url: "https://hissashirocha.github.io"
 title: Garagem Analítica # site's title
 description: Onde cerro, trituro e lapido dados com Machine Learning e Inteligência Artificial # used by search engines
