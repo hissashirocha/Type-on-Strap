@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Sobre Mim
-permalink: /sobremim/
+title: Sobre
+permalink: /sobre/
 feature-img: "assets/img/pexels/garagem2.png" #circuit.jpeg
 tags: [Sobre, About]
 ---
