@@ -3,6 +3,7 @@ layout: post
 title: Jekyll
 feature-img: "assets/img/portfolio/cabin.png"
 img: "assets/img/portfolio/cabin.png"
+descr: Essa é uma descrição teste para cada projeto colocada dentro da propriedade descr.
 date: 2017-05-26
 ---
 
