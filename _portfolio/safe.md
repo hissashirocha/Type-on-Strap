@@ -3,6 +3,7 @@ layout: post
 title: Creative
 feature-img: "assets/img/portfolio/safe.png"
 img: "assets/img/portfolio/safe.png"
+descr: Essa é uma descrição teste para cada projeto colocada dentro da propriedade descr.
 date: August, 16 2014
 tags: [Ipsum]
 ---
