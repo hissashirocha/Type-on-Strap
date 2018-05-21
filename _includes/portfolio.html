@@ -3,7 +3,7 @@
     <div class="row">
         {% for item in site.portfolio %}
         <div class="col-sm-4 col-xs-4 portfolio-item">
-            <div>
+            <div style="min-width:250px;">
                 <a href="{{ site.baseurl }}{{ item.url }}" class="portfolio-link" data-keyboard="true">
                     <div class="caption" title="{{ item.title }}">
                         <div class="caption-content">
@@ -13,12 +13,12 @@
                     <img src="{{ site.baseurl }}/{{ item.img }}" class="" alt="">
                 </a>
             </div>
-            <div style="padding-left: 10px; margin-top:-18px;">
+            <div style="padding-left:10px; margin-top:-18px;">
                 <a href="{{ site.baseurl }}{{ item.url }}">
                         {{ item.title }}
                 </a>
             </div>
-            <div style="padding-left: 20px; margin-top:-20px; font-size: 80%"> 
+            <div style="padding-left:20px; margin-top:-20px; font-size:80%"> 
                 {{ item.descr }} 
             </div>
         </div>
