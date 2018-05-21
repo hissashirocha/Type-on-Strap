@@ -2,6 +2,7 @@
 layout: post
 title: Tower of Hanoi
 img: "assets/img/portfolio/toh.png"
+descr: Essa é uma descrição teste para cada projeto colocada dentro da propriedade descr.
 date: September 2014
 ---
 
