@@ -3,6 +3,7 @@ layout: post
 title: Circus
 img: "assets/img/portfolio/circus.png"
 date: September 2014
+descr: Essa é uma descrição teste para cada projeto colocada dentro da propriedade descr.
 tags: [Ipsum]
 ---
 
