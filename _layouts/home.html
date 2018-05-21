@@ -10,31 +10,51 @@ layout: default
   </div>
   {% endif %}
 
-  <!-- Portfolio Grid Section -->
-<section class="portfolio">
-    <div class="row">
-        {% for item in site.portfolio %}
-        <div class="col-sm-6 col-xs-12 col-md-4 col-lg-4 portfolio-item">
-            <div style="min-width:250px;max-width:600px;">
-                <a href="{{ site.baseurl }}{{ item.url }}" class="portfolio-link" data-keyboard="true">
-                    <div class="caption" title="{{ item.title }}">
-                        <div class="caption-content">
-                            <i class="fa fa-search-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img src="{{ site.baseurl }}/{{ item.img }}" class="" alt="">
-                </a>
-            </div>
-            <div style="padding-left:10px; margin-top:-18px;min-width:250px;max-width:450px;">
-                <a href="{{ site.baseurl }}{{ item.url }}">
-                        {{ item.title }}
-                </a>
-            </div>
-            <div style="padding-left:20px; margin-top:-20px; font-size:80%;min-width:250px;max-width:450px;"> 
-                {{ item.descr }} 
-            </div>
-        </div>
-        {% endfor %}
+ <div class="posts">
+    {% for post in paginator.posts %}
+    <div class="post-teaser">
+      {% if post.thumbnail %} 
+      <div class="post-img">
+         <img src="{{ site.baseurl }}/{{ post.thumbnail }}">
+      </div>
+      {% endif %}
+      <span>
+          <header>
+            <h1>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                {{ post.title }}
+              </a>
+            </h1>
+            <p class="meta">
+              {{ post.date | date: "%B %-d, %Y" }}
+            </p>
+          </header>
+          <div class="excerpt">
+              {{ post.excerpt | strip_html | escape }}
+            <!--{{ post.content | strip_html | truncate: "250" }}-->
+            <!--<a class="button" href="{{ post.url | prepend: site.baseurl }}">
+              {{ site.theme_settings.str_continue_reading }}
+            </a>-->
+          </div>
+      </span>
     </div>
-</section>
+    {% endfor %}
+  </div>
+
+  {% if paginator.total_pages > 1 %}
+  <div class="pagination">
+    {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button" >
+      <i class="fa fa-chevron-left"></i>
+      {{ site.theme_settings.str_previous_page }}
+    </a>
+    {% endif %}
+    {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button" >
+      {{ site.theme_settings.str_next_page }}
+      <i class="fa fa-chevron-right"></i>
+    </a>
+    {% endif %}
+  </div>
+  {% endif %}
 </div>
