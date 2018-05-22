@@ -2,6 +2,7 @@
 layout: post
 title: Blogging with title
 tags: [Test, Ipsum, Markdown, Portfolio]
+resumo: Esse é o resumo do post I am a BIG title para que não seja o primeiro parágrafo do texto.
 ---
 
 # I am a BIG title
