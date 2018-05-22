@@ -1,5 +1,5 @@
 <!-- Portfolio Grid Section -->
-<section class="portfolio">
+<section class="portfolio" style="margin-top:-20px;">
     <div class="row">
         {% for item in site.portfolio %}
         <div class="col-sm-6 col-xs-12 col-md-4 col-lg-4 portfolio-item">
@@ -18,7 +18,7 @@
                         {{ item.title }}
                 </a>
             </div>
-            <div style="padding-left:20px; margin-top:-20px; font-size:80%;min-width:250px;max-width:450px;text-align: justify;"> 
+            <div style="padding-left:20px; padding-right:20px; margin-top:-20px; font-size:80%;min-width:250px;max-width:450px;text-align: justify;"> 
                 {{ item.descr }} 
             </div>
         </div>
