@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Sample post
 tags: [Test, Lorem, Ipsum]
 resumo: Esse é o primeiro parágrafo do post Sample post para que o texto o resumo não tenha que ser necessariamente o primeiro parágrafo do texto original.
