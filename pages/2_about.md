@@ -3,7 +3,7 @@ layout: page
 title: Sobre
 permalink: /sobre/
 feature-img: "assets/img/pexels/garagem2.png" #circuit.jpeg
-tags: [Sobre, About]
+tags: [Sobre]
 ---
 
 Chamei esse blog de <b>Garagem Analítica</b> pensando justamente em um local para trabalhar com projetos "manuais", pegando as ferramentas e sujando as mãos, sem muita pretensão além de me divertir e ir compartilhando aventuras e aprendizados no universo de dados, machine learning e inteligência artificial.
