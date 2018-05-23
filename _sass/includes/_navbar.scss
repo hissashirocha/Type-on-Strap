@@ -127,7 +127,6 @@
             margin: 0;
             opacity: 0;
             padding: 0;
-            line-height: 25px;
             /* fade out, then shrink */
             transition: opacity .25s,
                         font-size .5s .25s,
@@ -139,6 +138,11 @@
             width: 100%;
             float: left;
             position: relative;
+        }
+        
+        li .clear {
+            line-height: 45px;
+            font-size: 130%;
         }
 
         a {
