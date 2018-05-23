@@ -2,10 +2,7 @@
     
     <!-- Logo and title -->
 	<div class="branding">
-		<a href="{{ site.baseurl }}/">
-			<img class="avatar" src="{{ site.baseurl }}/{{ site.theme_settings.avatar }}" alt=""/>
-		</a>
-
+		
 		<h1 class="site-title">
 			<a href="{{ site.baseurl }}/">{{ site.theme_settings.title }}</a>
 		</h1>
@@ -23,7 +20,7 @@
         {% assign name_page = "" %}
         
         {% for page in site.pages %}
-        {% if page.title and page.hide != true %}
+        {% if page.title and pagehide != true %}
         {% if name_page contains page.title %}
         {% else %}
         <li class="separator"> | </li>
