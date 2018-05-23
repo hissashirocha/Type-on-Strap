@@ -20,7 +20,7 @@
         {% assign name_page = "" %}
         
         {% for page in site.pages %}
-        {% if page.title and pagehide != true %}
+        {% if page.title and page.hide != true %}
         {% if name_page contains page.title %}
         {% else %}
         <li class="separator"> | </li>
