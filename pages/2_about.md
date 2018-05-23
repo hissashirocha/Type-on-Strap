@@ -11,4 +11,4 @@ Ahh, e já me apresentando, meu nome é <b>Luiz Hissashi</b>, nipo-mineiro, atua
 
 Espero que minhas experiências sejam úteis para você de alguma forma! E, caso queira mandar um elogio, crítica ou mandar um "olá", meu e-mail é hissashirocha@gmail.com.
 
-Bora lá?
+=)
