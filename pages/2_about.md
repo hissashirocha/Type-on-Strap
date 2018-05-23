@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Sobre
+title: Sobre o blog
 permalink: /sobre/
 feature-img: "assets/img/pexels/garagem2.png" #circuit.jpeg
 ---
