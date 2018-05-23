@@ -4,13 +4,13 @@
 <footer>
   <div class="tag-list">
     {% if include.tags.size == 1 %}
-      <div class="meta">Assuntos</div>
+      <div class="meta">Assunto</div>
     {% elsif include.tags.size > 1 %}
       <div class="meta">Assuntos</div>
     {% endif %}
 
     {% for tag in tags %}
-    <a class="button" href="{{site.baseurl}}/tags#{{tag}}">
+    <a class="button" href="{{site.baseurl}}/assuntos#{{tag}}">
       <p><i class="fa fa-tag fa-fw"></i> {{ tag }}</p>
     </a>
     {% endfor %}
