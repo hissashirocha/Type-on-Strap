@@ -2,3 +2,8 @@
 ---
 
 @import "type-on-strap";
+
+@media screen and (max-width: 768px)
+p, li {
+    font-size: 0.8em !important;
+}
